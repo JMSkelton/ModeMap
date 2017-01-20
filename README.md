@@ -54,21 +54,19 @@ This is presently beyond the scope of these codes, although they may provide a b
 Further Information
 -------------------
 
-The basic theory and its application to the high-temperature *Cmcm* phase of SnSe are described in detail in [Ref. 1](#Ref1) in the [References section](#References).
+The basic theory and its application to the high-temperature *Cmcm* phase of SnSe are described in detail in [Ref. 1](#Ref1) in the References section.
 
-An extension of the method to study the effect of the phonon instabilities in cubic methylammonium lead iodide on its electronic structure is described in [Ref. 2](#Ref2).
+An extension of the method to study the effect of the phonon instabilities in cubic methylammonium lead iodide ((CH<sub>3</sub>)(NH<sub>3</sub>)PbI<sub>3</sub>) on its electronic structure is described in [Ref. 2](#Ref2).
 
 This method implemented in these codes is very similar in principle to the "Decoupled Anharmonic Mode Approximation" technique developed in [Ref. 3](#Ref3), albeit with the simplification that in this implementation the potential-surface mapping and analysis would notmally only be performed for selected modes.
 
 Citation
 --------
 
-If you use these codes in your own work, please cite Skelton *et al.*, *Phys. Rev. Lett.* **117**, 075502 (**2016**) ([Ref. 1](#Ref1) in the [References section](#References)).
+If you use these codes in your own work, please cite Skelton *et al.*, *Phys. Rev. Lett.* **117**, 075502 (**2016**) ([Ref. 1](#Ref1) in the References section).
 
 References
 ----------
-
-<a name="#References"></a>
 
 1. <a name="Ref1"></a>J. M. Skelton, L. A. Burton, S. C. Parker, A. Walsh, C.-E. Kim, A. Soon, J. Buckeridge, A. A. Sokol, C. R. A. Catlow, A. Togo and I. Tanaka, "Anharmonicity in the High-Temperature *Cmcm* Phase of SnSe: Soft Modes and Three-Phonon Interactions", *Physical Review Letters* **117**, 075502 (**2016**), DOI: [10.1103/PhysRevLett.117.075502](https://doi.org/10.1103/PhysRevLett.117.075502)
 

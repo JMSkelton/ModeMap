@@ -60,7 +60,7 @@ Applications
 Citation
 --------
 
-If you use this code in your work, please cite Buckeridge *et al.*, *Phys. Rev. B* **84**, 144120 (**2011**) ([Ref. 1](#Ref1) in the Reference section) and Skelton *et al.*, *Phys. Rev. Lett.* **117**, 075502 (**2016**) ([Ref. 2](#Ref2).
+If you use this code in your work, please cite Buckeridge *et al.*, *Phys. Rev. B* **84**, 144120 (**2011**) ([Ref. 1](#Ref1) in the Reference section) and Skelton *et al.*, *Phys. Rev. Lett.* **117**, 075502 (**2016**) ([Ref. 2](#Ref2)).
 
 References
 ----------

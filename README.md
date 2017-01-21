@@ -16,6 +16,8 @@ They were developed and tested on Python 3.x, but should be compatible with Pyth
 `Phonopy` therefore needs to be installed and "importable" (e.g. the library directories added to `PYTHONPATH`).
 `ModeMap_PostProcess.py` and `ModeMap_PolyFit.py` require the `NumPy`, `SciPy` and `Matplotlib` packages.
 
+Users wishing to use the 1D Schr&ouml;dinger solver provided for post processing will need to compile it using a Fortran 90 compiler such as GFortran.
+
 Usage
 -----
 
@@ -29,6 +31,11 @@ A typical usage will consist of three or four steps, implemented in a series of 
 3. Post-process the calculation results to generate the potential-energy surface maps (`ModeMap_PostProcess.py`).
 
 4. If desired, fit the calculated potential-energy surfaces to polynomial functions for further analysis (`ModeMap_PolynomialFit.py`).
+
+5. Again, if desired, carry out further post processing by using the fitted potential-surface(s) as input to a 1D Schr&ouml;dinger solver.
+   A Fortran code written by J. Buckeridge (UCL) is provided in [1DSchrodingerSolver](./1DSchrodingerSolver).
+   This uses the Fourier method to obtain the eigenvalues and eigenvectors in the anharmonic potential, and to determine an effective renormalised (harmonic) frequency for the mode that reproduces its contribution to the thermodynamic partition function at a given temperature.
+   The [TISH code](https://github.com/jarvist/Julia-SoftModeTISH-DeformationPotential) by J. M. Frost, which was written to study bandgap-deformation potentials, can also work with polynomial fits.
 
 Limitations
 -----------
@@ -54,7 +61,7 @@ This is presently beyond the scope of these codes, although they may provide a b
 Further Information
 -------------------
 
-The basic theory and its application to the high-temperature *Cmcm* phase of SnSe are described in detail in [Ref. 1](#Ref1) in the References section.
+The basic theory and its application to the /Volumes/Data/Repositories/ModeMap/1DSchrodingerSolver/README.mdhigh-temperature *Cmcm* phase of SnSe are described in detail in [Ref. 1](#Ref1) in the References section.
 
 An extension of the method to study the effect of the phonon instabilities in cubic methylammonium lead iodide ((CH<sub>3</sub>)(NH<sub>3</sub>)PbI<sub>3</sub>) on its electronic structure is described in [Ref. 2](#Ref2).
 

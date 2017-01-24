@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser(description = "Fit potential-energy surfaces ou
 # Defaults: read in data from a 1D map, fit to an 8-power polynomial, and output plots with the default x and y axis ranges.
 
 parser.set_defaults(
-    ModeMap = '1D',
+    MapMode = '1D',
     PolynomialDegree = 8,
     PlotXLimits = None,
     PlotYLimits = None
@@ -53,7 +53,7 @@ args = parser.parse_args();
 
 # Convert arguments and perform validation.
 
-if args.Degree <= 0:
+if args.PolynomialDegree <= 0:
     raise Exception("Error: The polynomial degree passed using --degree/--polynomial_degree must be greater than zero.");
 
 if args.PlotXLimits != None:
@@ -184,13 +184,13 @@ for i, (x, y) in enumerate(dataSets):
     plt.ylabel(r"$\Delta U$($Q$) [meV]");
 
     if args.PlotXLimits != None:
-        xMin, xMax = PlotXLimits;
+        xMin, xMax = args.PlotXLimits;
         plt.xlim(xMin, xMax);
     else:
         plt.xlim(x[0], x[-1]);
 
     if args.PlotYLimits != None:
-        yMin, yMax = PlotYLimits;
+        yMin, yMax = args.PlotYLimits;
         plt.ylim(yMin, yMax);
 
     axes = plt.gca();

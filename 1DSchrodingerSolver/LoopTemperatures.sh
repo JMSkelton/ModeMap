@@ -33,8 +33,8 @@ function Run()
 
   # Merge the output into "full-out.dat"
 
-  echo "Temperature: ${temp}" >> "full-out.dat"
-  echo "" > "full-out.dat"
+  echo "Temperature: ${temp} K" >> "full-out.dat"
+  echo "" >> "full-out.dat"
 
   cat "out.dat" >> "full-out.dat"
 

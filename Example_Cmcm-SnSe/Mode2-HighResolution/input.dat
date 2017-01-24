@@ -1,0 +1,64 @@
+# Input for Schrodinger solver. Follow instructions here
+#
+# First enter desired number of grid points in x direction.
+# The max number of eigenvalues will be equal to this number.
+# The value must not be greater than 2048
+#
+512
+#
+# Next enter mass factor (usually 1.0)
+#
+1.0
+#
+# Now enter which subroutine is used to solve the Schrodinger
+# equation:
+# value = F -> Solved in Fourier space via Fourier Transform
+# value = S -> Solved using 'shooting method' (only reliable
+#              for quantum well-like potentials)
+f
+#
+# Now enter temperature in Kelvin
+#
+1000
+#
+# Next enter integer number defining how potential is inputted:
+# value = 0 -> potential given in file 'potential.dat'
+# value = 1 -> potential given as a polynomial fit
+#
+1
+#
+# For polynomial fit, first give the (integer) number of 
+# coefficients
+# (which should be equal to the order of the polynomial + 1)
+#
+21
+#
+# Now enter each coeffient on a separate line. Include 
+# coefficients that equal zero
+#
+ 1.3386211521047871e-06
+-2.6618926662019199e-09
+-2.2133915169809324e-04
+ 1.4934604233804039e-10
+ 1.1985806481556907e-06
+-2.4100698350639894e-12
+-6.1791640977117021e-10
+ 1.7346801958400845e-14
+ 7.9091171299568848e-13
+-6.6385679872492474e-17
+-1.7079242835550247e-15
+ 1.4652627894044448e-19
+ 3.0764848774088796e-18
+-1.9199668009353658e-22
+-3.6550153164325293e-21
+ 1.4697176366716046e-25
+ 2.6420975853475459e-24
+-6.0566507030981952e-29
+-1.0515617201802736e-27
+ 1.0362801057528616e-32
+ 1.7652822602457046e-31
+#
+# Now enter the minimum and maximum x values, on separate lines
+#
+-35.0
+ 35.0

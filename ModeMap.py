@@ -130,10 +130,13 @@ for i, mode in enumerate(modes):
         if len(elements) != 4:
             raise Exception("Error: Modes to follow should be specified by four numbers (q_z, q_y, q_z, bandIndex); supplying a phase factor is not currently supported.");
 
-        modes[i] = (
-            tuple(float(element) for element in elements[:3]),
-            int(elements[3])
-            );
+        qx, qy, qz = [float(element) for element in elements[:3]];
+        bandIndex = int(elements[3]);
+
+        if bandIndex <= 0:
+            raise Exception("Error: The band indices of modes to follow must be greater than zero.");
+
+        modes[i] = ((qx, qy, qz), bandIndex);
 
 args.Mode1, args.Mode2 = modes;
 

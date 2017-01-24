@@ -1,0 +1,6256 @@
+Temperature: 0 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used    1 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+WARNING: partition function is very close to zero!!
+       : (Not enough eigenvalues < kT)
+
+
+Omega =   0.27980E+13 rad/s
+Omega =       0.44532 THz
+Omega =       1.84166 meV
+Omega =      14.85436 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.00000E+00 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.00000E+00
+
+
+Temperature: 1 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used    2 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.26165E+13 rad/s
+Omega =       0.41644 THz
+Omega =       1.72221 meV
+Omega =      13.89087 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.19733E-03 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.20907E-08
+
+
+Temperature: 2 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used    4 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.24351E+13 rad/s
+Omega =       0.38756 THz
+Omega =       1.60277 meV
+Omega =      12.92751 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.97312E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.91445E-04
+
+
+Temperature: 3 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used    6 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.22553E+13 rad/s
+Omega =       0.35895 THz
+Omega =       1.48446 meV
+Omega =      11.97327 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.63960E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.32178E-02
+
+
+Temperature: 4 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used    6 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.20861E+13 rad/s
+Omega =       0.33201 THz
+Omega =       1.37306 meV
+Omega =      11.07473 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.47246E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.18974E-01
+
+
+Temperature: 5 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used    8 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.19397E+13 rad/s
+Omega =       0.30872 THz
+Omega =       1.27673 meV
+Omega =      10.29780 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.37172E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.54465E-01
+
+
+Temperature: 6 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   10 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18223E+13 rad/s
+Omega =       0.29003 THz
+Omega =       1.19946 meV
+Omega =       9.67453 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.30416E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.10900E+00
+
+
+Temperature: 7 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   12 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17321E+13 rad/s
+Omega =       0.27567 THz
+Omega =       1.14004 meV
+Omega =       9.19530 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.25560E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.17796E+00
+
+
+Temperature: 8 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   14 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16636E+13 rad/s
+Omega =       0.26477 THz
+Omega =       1.09496 meV
+Omega =       8.83167 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.21896E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.25670E+00
+
+
+Temperature: 9 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   15 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16113E+13 rad/s
+Omega =       0.25645 THz
+Omega =       1.06059 meV
+Omega =       8.55441 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.19029E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.34180E+00
+
+
+Temperature: 10 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   17 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15710E+13 rad/s
+Omega =       0.25003 THz
+Omega =       1.03400 meV
+Omega =       8.33998 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.16724E-04 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.43105E+00
+
+
+Temperature: 20 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   30 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14085E+13 rad/s
+Omega =       0.22418 THz
+Omega =       0.92710 meV
+Omega =       7.47778 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.62634E-05 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.14036E+01
+
+
+Temperature: 30 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   40 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13485E+13 rad/s
+Omega =       0.21462 THz
+Omega =       0.88757 meV
+Omega =       7.15891 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.29343E-05 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.24412E+01
+
+
+Temperature: 40 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   49 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13098E+13 rad/s
+Omega =       0.20846 THz
+Omega =       0.86210 meV
+Omega =       6.95348 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.14749E-05 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.35190E+01
+
+
+Temperature: 50 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   57 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12843E+13 rad/s
+Omega =       0.20441 THz
+Omega =       0.84534 meV
+Omega =       6.81832 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.74478E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.46132E+01
+
+
+Temperature: 60 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   65 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12688E+13 rad/s
+Omega =       0.20193 THz
+Omega =       0.83509 meV
+Omega =       6.73565 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.35076E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.57047E+01
+
+
+Temperature: 70 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   72 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12605E+13 rad/s
+Omega =       0.20061 THz
+Omega =       0.82965 meV
+Omega =       6.69171 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.12830E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.67820E+01
+
+
+Temperature: 80 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   79 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12575E+13 rad/s
+Omega =       0.20014 THz
+Omega =       0.82769 meV
+Omega =       6.67594 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.30314E-10 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.78389E+01
+
+
+Temperature: 90 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   86 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12584E+13 rad/s
+Omega =       0.20028 THz
+Omega =       0.82827 meV
+Omega =       6.68064 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.73885E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.88723E+01
+
+
+Temperature: 100 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   92 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12621E+13 rad/s
+Omega =       0.20087 THz
+Omega =       0.83071 meV
+Omega =       6.70025 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.11496E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.98813E+01
+
+
+Temperature: 110 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used   99 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12678E+13 rad/s
+Omega =       0.20178 THz
+Omega =       0.83449 meV
+Omega =       6.73079 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.13575E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.10866E+02
+
+
+Temperature: 120 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  105 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12751E+13 rad/s
+Omega =       0.20294 THz
+Omega =       0.83927 meV
+Omega =       6.76937 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.14377E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.11828E+02
+
+
+Temperature: 130 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  111 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12835E+13 rad/s
+Omega =       0.20427 THz
+Omega =       0.84479 meV
+Omega =       6.81388 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.14371E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.12767E+02
+
+
+Temperature: 140 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  117 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.12927E+13 rad/s
+Omega =       0.20574 THz
+Omega =       0.85085 meV
+Omega =       6.86276 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.13854E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.13685E+02
+
+
+Temperature: 150 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  123 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13025E+13 rad/s
+Omega =       0.20730 THz
+Omega =       0.85731 meV
+Omega =       6.91485 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.13022E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.14583E+02
+
+
+Temperature: 160 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  128 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13128E+13 rad/s
+Omega =       0.20893 THz
+Omega =       0.86406 meV
+Omega =       6.96928 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.12003E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.15462E+02
+
+
+Temperature: 170 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  134 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13233E+13 rad/s
+Omega =       0.21061 THz
+Omega =       0.87101 meV
+Omega =       7.02536 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.10885E-06 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.16323E+02
+
+
+Temperature: 180 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  140 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13341E+13 rad/s
+Omega =       0.21233 THz
+Omega =       0.87811 meV
+Omega =       7.08261 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.97241E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.17169E+02
+
+
+Temperature: 190 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  145 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13450E+13 rad/s
+Omega =       0.21407 THz
+Omega =       0.88530 meV
+Omega =       7.14061 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.85608E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.17998E+02
+
+
+Temperature: 200 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  151 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13560E+13 rad/s
+Omega =       0.21582 THz
+Omega =       0.89255 meV
+Omega =       7.19906 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.74209E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.18813E+02
+
+
+Temperature: 210 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  156 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13671E+13 rad/s
+Omega =       0.21758 THz
+Omega =       0.89982 meV
+Omega =       7.25772 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.63213E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.19615E+02
+
+
+Temperature: 220 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  161 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13782E+13 rad/s
+Omega =       0.21934 THz
+Omega =       0.90710 meV
+Omega =       7.31641 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.52729E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.20403E+02
+
+
+Temperature: 230 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  167 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.13892E+13 rad/s
+Omega =       0.22110 THz
+Omega =       0.91436 meV
+Omega =       7.37497 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.42820E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.21180E+02
+
+
+Temperature: 240 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  172 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14002E+13 rad/s
+Omega =       0.22284 THz
+Omega =       0.92159 meV
+Omega =       7.43330 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.33518E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.21944E+02
+
+
+Temperature: 250 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  177 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14111E+13 rad/s
+Omega =       0.22458 THz
+Omega =       0.92878 meV
+Omega =       7.49130 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.24834E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.22698E+02
+
+
+Temperature: 260 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  182 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14219E+13 rad/s
+Omega =       0.22631 THz
+Omega =       0.93592 meV
+Omega =       7.54890 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.16764E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.23442E+02
+
+
+Temperature: 270 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  187 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14327E+13 rad/s
+Omega =       0.22802 THz
+Omega =       0.94301 meV
+Omega =       7.60604 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.92945E-08 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.24176E+02
+
+
+Temperature: 280 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  192 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14434E+13 rad/s
+Omega =       0.22972 THz
+Omega =       0.95003 meV
+Omega =       7.66270 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =   0.24028E-08 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.24900E+02
+
+
+Temperature: 290 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  197 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14540E+13 rad/s
+Omega =       0.23140 THz
+Omega =       0.95699 meV
+Omega =       7.71882 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.39365E-08 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.25616E+02
+
+
+Temperature: 300 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  202 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14644E+13 rad/s
+Omega =       0.23307 THz
+Omega =       0.96388 meV
+Omega =       7.77440 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.97519E-08 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.26323E+02
+
+
+Temperature: 310 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  207 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14748E+13 rad/s
+Omega =       0.23472 THz
+Omega =       0.97070 meV
+Omega =       7.82941 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.15073E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.27023E+02
+
+
+Temperature: 320 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  212 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14850E+13 rad/s
+Omega =       0.23635 THz
+Omega =       0.97745 meV
+Omega =       7.88384 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.19931E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.27714E+02
+
+
+Temperature: 330 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  216 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.14952E+13 rad/s
+Omega =       0.23797 THz
+Omega =       0.98412 meV
+Omega =       7.93768 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.24356E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.28398E+02
+
+
+Temperature: 340 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  221 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15052E+13 rad/s
+Omega =       0.23956 THz
+Omega =       0.99073 meV
+Omega =       7.99094 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.28377E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.29075E+02
+
+
+Temperature: 350 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  226 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15151E+13 rad/s
+Omega =       0.24114 THz
+Omega =       0.99726 meV
+Omega =       8.04360 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.32022E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.29746E+02
+
+
+Temperature: 360 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  231 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15249E+13 rad/s
+Omega =       0.24270 THz
+Omega =       1.00371 meV
+Omega =       8.09567 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.35320E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.30410E+02
+
+
+Temperature: 370 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  235 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15346E+13 rad/s
+Omega =       0.24424 THz
+Omega =       1.01009 meV
+Omega =       8.14716 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.38296E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.31068E+02
+
+
+Temperature: 380 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  240 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15442E+13 rad/s
+Omega =       0.24577 THz
+Omega =       1.01641 meV
+Omega =       8.19806 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.40974E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.31719E+02
+
+
+Temperature: 390 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  244 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15537E+13 rad/s
+Omega =       0.24728 THz
+Omega =       1.02265 meV
+Omega =       8.24839 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.43378E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.32365E+02
+
+
+Temperature: 400 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  249 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15631E+13 rad/s
+Omega =       0.24877 THz
+Omega =       1.02881 meV
+Omega =       8.29815 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.45530E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.33006E+02
+
+
+Temperature: 410 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  254 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15723E+13 rad/s
+Omega =       0.25025 THz
+Omega =       1.03491 meV
+Omega =       8.34734 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.47449E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.33641E+02
+
+
+Temperature: 420 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  258 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15815E+13 rad/s
+Omega =       0.25170 THz
+Omega =       1.04094 meV
+Omega =       8.39598 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.49155E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.34271E+02
+
+
+Temperature: 430 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  263 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15906E+13 rad/s
+Omega =       0.25315 THz
+Omega =       1.04691 meV
+Omega =       8.44407 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.50664E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.34896E+02
+
+
+Temperature: 440 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  267 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.15995E+13 rad/s
+Omega =       0.25457 THz
+Omega =       1.05280 meV
+Omega =       8.49163 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.51995E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.35516E+02
+
+
+Temperature: 450 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  272 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16084E+13 rad/s
+Omega =       0.25598 THz
+Omega =       1.05863 meV
+Omega =       8.53866 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.53160E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.36132E+02
+
+
+Temperature: 460 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  276 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16171E+13 rad/s
+Omega =       0.25738 THz
+Omega =       1.06440 meV
+Omega =       8.58517 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.54174E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.36743E+02
+
+
+Temperature: 470 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  280 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16258E+13 rad/s
+Omega =       0.25876 THz
+Omega =       1.07010 meV
+Omega =       8.63117 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.55051E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.37350E+02
+
+
+Temperature: 480 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  285 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16344E+13 rad/s
+Omega =       0.26012 THz
+Omega =       1.07574 meV
+Omega =       8.67666 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.55801E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.37952E+02
+
+
+Temperature: 490 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  289 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16429E+13 rad/s
+Omega =       0.26147 THz
+Omega =       1.08132 meV
+Omega =       8.72167 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.56435E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.38551E+02
+
+
+Temperature: 500 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  294 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16512E+13 rad/s
+Omega =       0.26280 THz
+Omega =       1.08684 meV
+Omega =       8.76619 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.56964E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.39145E+02
+
+
+Temperature: 510 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  298 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16595E+13 rad/s
+Omega =       0.26412 THz
+Omega =       1.09230 meV
+Omega =       8.81024 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.57396E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.39736E+02
+
+
+Temperature: 520 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  302 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16677E+13 rad/s
+Omega =       0.26543 THz
+Omega =       1.09771 meV
+Omega =       8.85383 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.57740E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.40323E+02
+
+
+Temperature: 530 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  307 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16759E+13 rad/s
+Omega =       0.26672 THz
+Omega =       1.10306 meV
+Omega =       8.89696 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58003E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.40906E+02
+
+
+Temperature: 540 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  311 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16839E+13 rad/s
+Omega =       0.26800 THz
+Omega =       1.10835 meV
+Omega =       8.93965 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58192E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.41486E+02
+
+
+Temperature: 550 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  315 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16919E+13 rad/s
+Omega =       0.26927 THz
+Omega =       1.11359 meV
+Omega =       8.98189 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58313E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.42062E+02
+
+
+Temperature: 560 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  319 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.16997E+13 rad/s
+Omega =       0.27052 THz
+Omega =       1.11877 meV
+Omega =       9.02371 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58372E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.42635E+02
+
+
+Temperature: 570 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  324 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17075E+13 rad/s
+Omega =       0.27176 THz
+Omega =       1.12390 meV
+Omega =       9.06510 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58374E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.43205E+02
+
+
+Temperature: 580 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  328 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17153E+13 rad/s
+Omega =       0.27299 THz
+Omega =       1.12898 meV
+Omega =       9.10609 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58324E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.43771E+02
+
+
+Temperature: 590 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  332 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17229E+13 rad/s
+Omega =       0.27421 THz
+Omega =       1.13401 meV
+Omega =       9.14666 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58226E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.44335E+02
+
+
+Temperature: 600 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  336 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17305E+13 rad/s
+Omega =       0.27541 THz
+Omega =       1.13900 meV
+Omega =       9.18685 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.58084E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.44895E+02
+
+
+Temperature: 610 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  340 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17380E+13 rad/s
+Omega =       0.27661 THz
+Omega =       1.14393 meV
+Omega =       9.22664 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.57900E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.45453E+02
+
+
+Temperature: 620 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  344 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17454E+13 rad/s
+Omega =       0.27779 THz
+Omega =       1.14882 meV
+Omega =       9.26604 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.57679E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.46007E+02
+
+
+Temperature: 630 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  349 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17527E+13 rad/s
+Omega =       0.27896 THz
+Omega =       1.15365 meV
+Omega =       9.30508 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.57423E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.46559E+02
+
+
+Temperature: 640 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  353 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17600E+13 rad/s
+Omega =       0.28012 THz
+Omega =       1.15845 meV
+Omega =       9.34374 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.57134E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.47108E+02
+
+
+Temperature: 650 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  357 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17672E+13 rad/s
+Omega =       0.28127 THz
+Omega =       1.16320 meV
+Omega =       9.38205 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.56815E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.47655E+02
+
+
+Temperature: 660 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  361 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17744E+13 rad/s
+Omega =       0.28240 THz
+Omega =       1.16790 meV
+Omega =       9.42000 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.56467E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.48199E+02
+
+
+Temperature: 670 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  365 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17815E+13 rad/s
+Omega =       0.28353 THz
+Omega =       1.17256 meV
+Omega =       9.45760 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.56092E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.48740E+02
+
+
+Temperature: 680 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  369 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17885E+13 rad/s
+Omega =       0.28465 THz
+Omega =       1.17718 meV
+Omega =       9.49486 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.55692E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.49279E+02
+
+
+Temperature: 690 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  373 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.17955E+13 rad/s
+Omega =       0.28575 THz
+Omega =       1.18176 meV
+Omega =       9.53179 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.55268E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.49815E+02
+
+
+Temperature: 700 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  377 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18023E+13 rad/s
+Omega =       0.28685 THz
+Omega =       1.18630 meV
+Omega =       9.56838 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.54820E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.50349E+02
+
+
+Temperature: 710 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  381 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18092E+13 rad/s
+Omega =       0.28794 THz
+Omega =       1.19080 meV
+Omega =       9.60466 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.54352E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.50881E+02
+
+
+Temperature: 720 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  385 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18160E+13 rad/s
+Omega =       0.28902 THz
+Omega =       1.19526 meV
+Omega =       9.64062 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.53862E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.51410E+02
+
+
+Temperature: 730 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  389 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18227E+13 rad/s
+Omega =       0.29009 THz
+Omega =       1.19968 meV
+Omega =       9.67626 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.53351E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.51937E+02
+
+
+Temperature: 740 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  393 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18293E+13 rad/s
+Omega =       0.29115 THz
+Omega =       1.20406 meV
+Omega =       9.71160 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.52822E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.52462E+02
+
+
+Temperature: 750 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  397 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18359E+13 rad/s
+Omega =       0.29220 THz
+Omega =       1.20840 meV
+Omega =       9.74665 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.52273E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.52984E+02
+
+
+Temperature: 760 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  401 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18425E+13 rad/s
+Omega =       0.29324 THz
+Omega =       1.21271 meV
+Omega =       9.78139 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.51706E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.53505E+02
+
+
+Temperature: 770 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  405 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18490E+13 rad/s
+Omega =       0.29427 THz
+Omega =       1.21698 meV
+Omega =       9.81585 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.51120E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.54023E+02
+
+
+Temperature: 780 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  409 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18554E+13 rad/s
+Omega =       0.29530 THz
+Omega =       1.22122 meV
+Omega =       9.85002 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.50517E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.54540E+02
+
+
+Temperature: 790 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  413 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18618E+13 rad/s
+Omega =       0.29631 THz
+Omega =       1.22542 meV
+Omega =       9.88391 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.49896E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.55054E+02
+
+
+Temperature: 800 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  456 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18681E+13 rad/s
+Omega =       0.29732 THz
+Omega =       1.22959 meV
+Omega =       9.91752 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.49258E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.55567E+02
+
+
+Temperature: 810 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  487 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18744E+13 rad/s
+Omega =       0.29832 THz
+Omega =       1.23372 meV
+Omega =       9.95086 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.48603E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.56078E+02
+
+
+Temperature: 820 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+Used  509 eigenvalues to get convergence of 10^-6 in partition function...
+Writing eigenvectors used in determining partition function to file
+wavefns.dat for plotting...
+
+Omega =   0.18806E+13 rad/s
+Omega =       0.29931 THz
+Omega =       1.23782 meV
+Omega =       9.98393 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.47931E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.56586E+02
+
+
+Temperature: 830 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8721956803265E+00
+
+Omega =   0.18868E+13 rad/s
+Omega =       0.30029 THz
+Omega =       1.24189 meV
+Omega =      10.01674 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.47242E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.57093E+02
+
+
+Temperature: 840 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8736166618988E+00
+
+Omega =   0.18929E+13 rad/s
+Omega =       0.30127 THz
+Omega =       1.24592 meV
+Omega =      10.04930 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.46536E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.57598E+02
+
+
+Temperature: 850 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8750064425784E+00
+
+Omega =   0.18990E+13 rad/s
+Omega =       0.30224 THz
+Omega =       1.24993 meV
+Omega =      10.08161 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.45814E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.58101E+02
+
+
+Temperature: 860 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8763660371367E+00
+
+Omega =   0.19051E+13 rad/s
+Omega =       0.30320 THz
+Omega =       1.25390 meV
+Omega =      10.11366 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.45074E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.58603E+02
+
+
+Temperature: 870 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8776964168879E+00
+
+Omega =   0.19110E+13 rad/s
+Omega =       0.30415 THz
+Omega =       1.25785 meV
+Omega =      10.14547 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.44318E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.59103E+02
+
+
+Temperature: 880 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8789985119863E+00
+
+Omega =   0.19170E+13 rad/s
+Omega =       0.30510 THz
+Omega =       1.26176 meV
+Omega =      10.17704 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.43546E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.59601E+02
+
+
+Temperature: 890 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8802732135803E+00
+
+Omega =   0.19229E+13 rad/s
+Omega =       0.30604 THz
+Omega =       1.26565 meV
+Omega =      10.20837 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.42756E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.60097E+02
+
+
+Temperature: 900 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8815213758317E+00
+
+Omega =   0.19288E+13 rad/s
+Omega =       0.30697 THz
+Omega =       1.26950 meV
+Omega =      10.23947 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.41950E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.60592E+02
+
+
+Temperature: 910 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8827438178119E+00
+
+Omega =   0.19346E+13 rad/s
+Omega =       0.30790 THz
+Omega =       1.27333 meV
+Omega =      10.27033 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.41128E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.61085E+02
+
+
+Temperature: 920 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8839413252826E+00
+
+Omega =   0.19403E+13 rad/s
+Omega =       0.30881 THz
+Omega =       1.27713 meV
+Omega =      10.30097 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.40288E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.61577E+02
+
+
+Temperature: 930 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8851146523690E+00
+
+Omega =   0.19461E+13 rad/s
+Omega =       0.30973 THz
+Omega =       1.28090 meV
+Omega =      10.33139 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.39433E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.62066E+02
+
+
+Temperature: 940 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8862645231341E+00
+
+Omega =   0.19518E+13 rad/s
+Omega =       0.31063 THz
+Omega =       1.28464 meV
+Omega =      10.36159 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.38560E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.62555E+02
+
+
+Temperature: 950 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8873916330590E+00
+
+Omega =   0.19574E+13 rad/s
+Omega =       0.31153 THz
+Omega =       1.28836 meV
+Omega =      10.39157 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.37671E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.63042E+02
+
+
+Temperature: 960 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8884966504379E+00
+
+Omega =   0.19630E+13 rad/s
+Omega =       0.31242 THz
+Omega =       1.29205 meV
+Omega =      10.42133 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.36765E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.63527E+02
+
+
+Temperature: 970 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8895802176914E+00
+
+Omega =   0.19686E+13 rad/s
+Omega =       0.31331 THz
+Omega =       1.29571 meV
+Omega =      10.45089 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.35843E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.64011E+02
+
+
+Temperature: 980 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8906429526049E+00
+
+Omega =   0.19741E+13 rad/s
+Omega =       0.31419 THz
+Omega =       1.29935 meV
+Omega =      10.48024 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.34904E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.64494E+02
+
+
+Temperature: 990 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8916854494966E+00
+
+Omega =   0.19796E+13 rad/s
+Omega =       0.31506 THz
+Omega =       1.30297 meV
+Omega =      10.50938 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.33948E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.64975E+02
+
+
+Temperature: 1000 K
+
+******************************************************
+
+      PROGRAM TO SOLVE 1D SCHROEDINGER EQUATION
+
+Potential assumed to be eV, distance in (a.m.u.)^1/2 A
+
+------
+j.buckeridge@ucl.ac.uk 2015
+******************************************************
+
+Reading in desired number of grid points...
+...done
+Reading in mass factor...
+...done
+Reading in subroutine choice...
+...done
+Will attempt to solve Schroedinger equation in Fourier space:
+Reading in temperature (in Kelvin)...
+...done
+Polynomial fitted function found...
+Order of polynomial:   20
+Coefficients read in successfully...
+...reading in max and min x values...
+...done. Now determining function...
+...done
+Minimum value of potential:  -0.1070114056854E-01 eV
+Maximum value of potential:   0.9362815902555E+00 eV
+Writing potential to file potential-new.dat...
+...done
+Fourier grid has 1024 points. Transforming potential...
+...done
+Now solving Schroedinger equation in Fourier space...
+...done
+Now inverse transforming and normalising eigenvectors...
+...done
+
+Determining corresponding mode frequency...
+WARNING: Partition function not converged using all eigenvalues -
+       : Convergence in sum is   0.8927082803198E+00
+
+Omega =   0.19850E+13 rad/s
+Omega =       0.31593 THz
+Omega =       1.30655 meV
+Omega =      10.53833 cm-1
+
+Calculating thermally averaged x position...
+
+Thermal average x =  -0.32976E-07 amu^1/2 A
+
+Calculating thermal occupation of mode...
+
+Thermal occupation of mode =   0.65455E+02
+
+

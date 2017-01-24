@@ -58,14 +58,23 @@ In the case of degenerate double-well modes, this means that the eigenvectors ma
 Within this approximation, the analysis of an *N*-fold degenerate set of modes should technically be approached by mapping the *N*-dimensional potential-energy surface and solving the corresponding *N*-dimensional Schro&ouml;dinger equation.
 This is presently beyond the scope of these codes, although they may provide a basis for further development.
 
+Examples
+--------
+
+The following examples are provided to illustrate some of the applications of these codes:
+
+* [Cmcm *SnSe*](./Example_Cmcm-SnSe) Reproduces some of the calculations and analysis in [Ref. 1](#Ref1).
+
 Further Information
 -------------------
 
-The basic theory and its application to the /Volumes/Data/Repositories/ModeMap/1DSchrodingerSolver/README.mdhigh-temperature *Cmcm* phase of SnSe are described in detail in [Ref. 1](#Ref1) in the References section.
+The basic theory and its application to the high-temperature *Cmcm* phase of SnSe are described in detail in [Ref. 1](#Ref1) in the References section.
 
-An extension of the method to study the effect of the phonon instabilities in cubic methylammonium lead iodide ((CH<sub>3</sub>)(NH<sub>3</sub>)PbI<sub>3</sub>) on its electronic structure is described in [Ref. 2](#Ref2).
+The mapping codes were used to map the potential-energy surfaces along the imaginary phonon modes in the cubic phase of methylammonium lead iodide ((CH<sub>3</sub>)(NH<sub>3</sub>)PbI<sub>3</sub>, MAPbI<sub>3</sub>) in [Ref. 2](#Ref2).
 
-This method implemented in these codes is very similar in principle to the "Decoupled Anharmonic Mode Approximation" technique developed in [Ref. 3](#Ref3), albeit with the simplification that in this implementation the potential-surface mapping and analysis would notmally only be performed for selected modes.
+An extension of the method to study the effect of the phonon instabilities in MAPbI<sub>3</sub> on the electronic structure is described in [Ref. 3](#Ref3).
+
+This method implemented in these codes is very similar in principle to the "Decoupled Anharmonic Mode Approximation" technique developed in [Ref. 4](#Ref4), albeit with the simplification that in this implementation the potential-surface mapping and analysis would notmally only be performed for selected modes.
 
 Citation
 --------
@@ -77,6 +86,8 @@ References
 
 1. <a name="Ref1"></a>J. M. Skelton, L. A. Burton, S. C. Parker, A. Walsh, C.-E. Kim, A. Soon, J. Buckeridge, A. A. Sokol, C. R. A. Catlow, A. Togo and I. Tanaka, "Anharmonicity in the High-Temperature *Cmcm* Phase of SnSe: Soft Modes and Three-Phonon Interactions", *Physical Review Letters* **117**, 075502 (**2016**), DOI: [10.1103/PhysRevLett.117.075502](https://doi.org/10.1103/PhysRevLett.117.075502)
 
-2. <a name="Ref2"></a>L. D. Whalley, J. M. Skelton, J. M. Frost and A. Walsh, "Phonon anharmonicity, lifetimes, and thermal transport in CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub> from many-body perturbation theory", *Physical Review B* **94**, 220301(R) (**2016**), DOI: [10.1103/PhysRevB.94.220301](https://doi.org/10.1103/PhysRevB.94.220301)
+2. <a name="Ref2"></a>A. N. Beecher†, O. E. Semonin, J. M. Skelton, J. M. Frost, M. W. Terban, H. Zhai, A. Alatas, J. S. Owen, A. Walsh and S. J. L. Billinge, "Direct Observation of Dynamic Symmetry Breaking above Room Temperature in Methylammonium Lead Iodide Perovskite", *ACS Energy Letters* **1** (4), 880 (**2016**), DOI: [10.1021/acsenergylett.6b00381](https://doi.org/10.1021/acsenergylett.6b00381)
 
-3. <a name="Ref3"></a>D. J. Adams and D. Passerone, "Insight into structural phase transitions from the decoupled anharmonic mode approximation", *Journal of Physics: Condensed Matter* **28** (30), 305401 (**2016**), DOI: [10.1088/0953-8984/28/30/305401](http://dx.doi.org/10.1088/0953-8984/28/30/305401)
+3. <a name="Ref3"></a>L. D. Whalley, J. M. Skelton, J. M. Frost and A. Walsh, "Phonon anharmonicity, lifetimes, and thermal transport in CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub> from many-body perturbation theory", *Physical Review B* **94**, 220301(R) (**2016**), DOI: [10.1103/PhysRevB.94.220301](https://doi.org/10.1103/PhysRevB.94.220301)
+
+4. <a name="Ref4"></a>D. J. Adams and D. Passerone, "Insight into structural phase transitions from the decoupled anharmonic mode approximation", *Journal of Physics: Condensed Matter* **28** (30), 305401 (**2016**), DOI: [10.1088/0953-8984/28/30/305401](http://dx.doi.org/10.1088/0953-8984/28/30/305401)

@@ -13,7 +13,8 @@ These are sufficient to run the calculations in this example, but those wishing 
 2D potential-energy surface
 ---------------------------
 
-Sample input and output files are stored in [2DMap](./2DMap). The example is run as follows:
+Sample input and output files are stored in the [2D](./2D) directory.
+The example is run as follows:
 
 1. Generate a sequence of modulated structures:
    

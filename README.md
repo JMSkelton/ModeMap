@@ -74,7 +74,7 @@ The mapping codes were used to map the potential-energy surfaces along the imagi
 
 An extension of the method to study the effect of the phonon instabilities in MAPbI<sub>3</sub> on the electronic structure is described in [Ref. 3](#Ref3).
 
-This method implemented in these codes is very similar in principle to the "Decoupled Anharmonic Mode Approximation" technique developed in [Ref. 4](#Ref4), albeit with the simplification that in this implementation the potential-surface mapping and analysis would notmally only be performed for selected modes.
+This method implemented in these codes is very similar in principle to the "Decoupled Anharmonic Mode Approximation" technique developed in [Ref. 4](#Ref4), albeit with the simplification that in this implementation the potential-surface mapping and analysis would normally only be performed for selected modes.
 
 Citation
 --------

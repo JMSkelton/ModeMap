@@ -86,7 +86,7 @@ References
 
 1. <a name="Ref1"></a>J. M. Skelton, L. A. Burton, S. C. Parker, A. Walsh, C.-E. Kim, A. Soon, J. Buckeridge, A. A. Sokol, C. R. A. Catlow, A. Togo and I. Tanaka, "Anharmonicity in the High-Temperature *Cmcm* Phase of SnSe: Soft Modes and Three-Phonon Interactions", *Physical Review Letters* **117**, 075502 (**2016**), DOI: [10.1103/PhysRevLett.117.075502](https://doi.org/10.1103/PhysRevLett.117.075502)
 
-2. <a name="Ref2"></a>A. N. Beecher†, O. E. Semonin, J. M. Skelton, J. M. Frost, M. W. Terban, H. Zhai, A. Alatas, J. S. Owen, A. Walsh and S. J. L. Billinge, "Direct Observation of Dynamic Symmetry Breaking above Room Temperature in Methylammonium Lead Iodide Perovskite", *ACS Energy Letters* **1** (4), 880 (**2016**), DOI: [10.1021/acsenergylett.6b00381](https://doi.org/10.1021/acsenergylett.6b00381)
+2. <a name="Ref2"></a>A. N. Beecher, O. E. Semonin, J. M. Skelton, J. M. Frost, M. W. Terban, H. Zhai, A. Alatas, J. S. Owen, A. Walsh and S. J. L. Billinge, "Direct Observation of Dynamic Symmetry Breaking above Room Temperature in Methylammonium Lead Iodide Perovskite", *ACS Energy Letters* **1** (4), 880 (**2016**), DOI: [10.1021/acsenergylett.6b00381](https://doi.org/10.1021/acsenergylett.6b00381)
 
 3. <a name="Ref3"></a>L. D. Whalley, J. M. Skelton, J. M. Frost and A. Walsh, "Phonon anharmonicity, lifetimes, and thermal transport in CH<sub>3</sub>NH<sub>3</sub>PbI<sub>3</sub> from many-body perturbation theory", *Physical Review B* **94**, 220301(R) (**2016**), DOI: [10.1103/PhysRevB.94.220301](https://doi.org/10.1103/PhysRevB.94.220301)
 

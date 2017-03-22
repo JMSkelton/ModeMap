@@ -117,9 +117,18 @@ for i, (x, y) in enumerate(dataSets):
 # Initialise Matplotlib.
 
 fontSize = 8;
+lineWidth = 0.5;
 
 mpl.rc('font', **{ 'family' : 'serif', 'size' : fontSize, 'serif' : 'Times New Roman' });
-mpl.rc('lines', **{ 'linewidth' : 0.5 });
+mpl.rc('mathtext', **{ 'fontset' : 'custom', 'rm' : 'Times New Roman', 'it' : 'Times New Roman:italic', 'bf' : 'Times New Roman:bold' });
+
+mpl.rc('axes', **{ 'labelsize' : fontSize, 'linewidth' : lineWidth });
+mpl.rc('lines', **{ 'linewidth' : lineWidth, 'markeredgewidth' : lineWidth });
+
+tickParams = { 'major.width' : lineWidth, 'minor.width' : lineWidth, 'direction' : 'in' };
+
+mpl.rc('xtick', **tickParams);
+mpl.rc('ytick', **tickParams);
 
 # Process the data sets.
 
@@ -195,13 +204,13 @@ for i, (x, y) in enumerate(dataSets):
 
     axes = plt.gca();
 
-    axes.xaxis.grid(color = (211 / 255.0, 211 / 255.0, 211 / 255.0), dashes = (2.0, 1.0));
-    axes.yaxis.grid(color = (211 / 255.0, 211 / 255.0, 211 / 255.0), dashes = (2.0, 1.0));
+    axes.xaxis.set_ticks_position('both');
+    axes.yaxis.set_ticks_position('both');
+
+    axes.xaxis.grid(color = (211 / 255.0, 211 / 255.0, 211 / 255.0), dashes = (2.0, 1.0), linewidth = lineWidth);
+    axes.yaxis.grid(color = (211 / 255.0, 211 / 255.0, 211 / 255.0), dashes = (2.0, 1.0), linewidth = lineWidth);
 
     axes.set_axisbelow(True);
-
-    for spine in axes.spines.values():
-        spine.set_linewidth(0.5);
 
     plt.tight_layout();
 

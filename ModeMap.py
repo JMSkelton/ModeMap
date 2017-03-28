@@ -3,6 +3,7 @@
 
 import argparse;
 import csv;
+import math;
 import os;
 import tarfile;
 
@@ -24,7 +25,8 @@ parser = argparse.ArgumentParser(description = "Use the Phonopy Python API to ma
 parser.set_defaults(
     CellFile = "POSCAR",
     ReadForceConstants = False,
-    MapMode = '1D'
+    MapMode = '1D',
+    ScaleQ = True
     );
 
 # The following four options mirror relevant command-line arguments that can be passed to Phonopy.
@@ -107,6 +109,12 @@ group2.add_argument(
     type = str, dest = 'ModulationSupercellMatrix',
     required = True,
     help = "Supercell expansion in which to generate modulated structures."
+    );
+
+group2.add_argument(
+    "--no_q_scale",
+    action = 'store_true',
+    help = "Do not scale normal-mode coordinates fed to Phonopy by sqrt(N_a) (this is required for correct dU(Q) curves; only turn this off if you know what you're doing...!)"
     );
 
 args = parser.parse_args();
@@ -205,6 +213,15 @@ else:
 
     phonon.produce_force_constants();
 
+# Set a scaling factor for the user-input normal-mode coordinate ranges.
+# The conversion from normal-mode coordinate amplitude to cartesian displacements in the Phonopy modulation routine uses a definition that leads to fitted harmonic frequencies (for modes with harmonic potential-energy surfaces) being a factor of \sqrt(N_a) too small.
+# By default, we therefore apply a scaling factor before passing the amplitudes to the Phonopy routines (unless overridden by the --no__q_scale argument).
+
+qScale = None;
+
+if args.ScaleQ:
+    qScale = math.sqrt(len(structure.get_scaled_positions()));
+
 if args.MapMode == '1D':
     # 1D mapping mode.
 
@@ -226,7 +243,10 @@ if args.MapMode == '1D':
         for q in args.QRange1:
             phonon.set_modulations(
                 args.ModulationSupercellMatrix,
-                [[qPoint, index, q, 0.0]]
+
+                # Scale the normal-mode coordinate before passing to Phonopy, if required.
+
+                [[qPoint, index, q * qScale if qScale != None else q, 0.0]]
                 );
 
             phonon.write_modulations();
@@ -275,7 +295,11 @@ elif args.MapMode == '2D':
             for q2 in args.QRange2:
                 phonon.set_modulations(
                     args.ModulationSupercellMatrix,
-                    [[qPoint1, index1, q1, 0.0], [qPoint2, index2, q2, 0.0]]
+                    [
+                        # Again if needed, scale the normal-mode coordinates before passing to Phonopy.
+
+                        [qPoint1, index1, q1 * qScale if qScale != None else q1, 0.0],
+                        [qPoint2, index2, q2 * qScale if qScale != None else q2, 0.0]]
                     );
 
                 phonon.write_modulations();

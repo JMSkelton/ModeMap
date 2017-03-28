@@ -318,8 +318,8 @@ elif args.MapMode == '2D':
         qx1, qy1, qz1 = qPoint1;
         qx2, qy2, qz2 = qPoint2;
 
-        outputWriterCSV.writerow(["Mode 1", "q = ({0:.3f}, {1:.3f}, {2:.3f}), band = {3}".format(qx1, qy1, qz1, index1)]);
-        outputWriterCSV.writerow(["Mode 2", "q = ({0:.3f}, {1:.3f}, {2:.3f}), band = {3}".format(qx2, qy2, qz2, index2)]);
+        outputWriterCSV.writerow(["Mode 1", "q = ({0:.3f}, {1:.3f}, {2:.3f}), band = {3}".format(qx1, qy1, qz1, index1 + 1)]);
+        outputWriterCSV.writerow(["Mode 2", "q = ({0:.3f}, {1:.3f}, {2:.3f}), band = {3}".format(qx2, qy2, qz2, index2 + 1)]);
 
         outputWriterCSV.writerow([]);
 

@@ -29,26 +29,31 @@ parser.set_defaults(
 
 # The following four options mirror relevant command-line arguments that can be passed to Phonopy.
 
-parser.add_argument(
+group1 = parser.add_argument_group("Phonopy settings");
+
+group1.add_argument(
     "-c", "--cell",
+    metavar = "cell_file",
     type = str, dest = 'CellFile',
     help = "POSCAR file to read (default: POSCAR)"
     );
 
-parser.add_argument(
+group1.add_argument(
     "--dim",
+    metavar = "'x y z'",
     type = str, dest = 'SupercellMatrix',
     required = True,
     help = "Supercell used to calculated the forces (same as Phonopy --dim option)"
     );
 
-parser.add_argument(
+group1.add_argument(
     "--pa", "--primitive_axis",
+    metavar = "'xx xy xz yx yy yz zx zy zz'",
     type = str, dest = 'PrimitiveMatrix',
     help = "Transformation matrix to be used in the calculations (same as Phonopy --pa/--primitive_axis option)"
     );
 
-parser.add_argument(
+group1.add_argument(
     "--readfc",
     dest = 'ReadForceConstants',
     action = 'store_true',
@@ -57,41 +62,48 @@ parser.add_argument(
 
 # The following variables control the map mode (1D/2D), the mode(s) and amplitude range(s) to be mapped, and the size of the supercell in which to generate the modulated structures.
 
-parser.add_argument(
+group2 = parser.add_argument_group("Map settings");
+
+group2.add_argument(
     "--map_2d",
     dest = 'MapMode',
     action = 'store_const', const = '2D',
     help = "Map two modes as a function of Q, specified via the --mode_1 and --mode_2 arguments"
     );
 
-parser.add_argument(
+group2.add_argument(
     "--mode", "--mode_1",
+    metavar = "'q_x q_y q_z band_index'",
     type = str, dest = 'Mode1',
     required = True,
     help = "Mode to map (first mode if --map_2d is specified), in the form of \"q_x q_y q_z band_index\""
     );
 
-parser.add_argument(
+group2.add_argument(
     "--mode_2",
+    metavar = "'q_x q_y q_z band_index'",
     type = str, dest = 'Mode2',
     help = "Second mode to map for --map_2d"
     );
 
-parser.add_argument(
+group2.add_argument(
     "--q_range", "--q_range_1",
+    metavar = "'start end step'",
     type = str, dest = 'QRange1',
     required = True,
     help = "Range of mode coordinates to map, in the form of \"start, stop, step\""
     );
 
-parser.add_argument(
+group2.add_argument(
     "--q_range_2",
+    metavar = "'start end step'",
     type = str, dest = 'QRange2',
     help = "Optional different range of mode coordinates to map the second mode when using --map_2d"
     );
 
-parser.add_argument(
+group2.add_argument(
     "--supercell",
+    metavar = "'x y z'",
     type = str, dest = 'ModulationSupercellMatrix',
     required = True,
     help = "Supercell expansion in which to generate modulated structures."

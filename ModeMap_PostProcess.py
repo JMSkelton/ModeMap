@@ -2,6 +2,7 @@
 
 
 import argparse;
+import math;
 import csv;
 
 import numpy as np;
@@ -65,10 +66,11 @@ def _ReadExtractTotalEnergiesCSV(filePath = "ExtractTotalEnergies.csv", headerRo
 
 parser = argparse.ArgumentParser(description = "Post process calculations set up using ModeMap.py");
 
-# By default, the script expects to process a 1D map.
+# By default, the script expects to process a 1D map, and does not rescale the normal-mode coordinates.
 
 parser.set_defaults(
-    MapMode = '1D'
+    MapMode = '1D',
+    RescaleNA = None
     );
 
 parser.add_argument(
@@ -78,7 +80,18 @@ parser.add_argument(
     help = "Post process data from a ModeMap.py calculation with the --map_2d option."
     );
 
+parser.add_argument(
+    "--rescale_na",
+    type = int, dest = 'RescaleNA',
+    help = "Rescale normal-mode coordinates by 1/sqrt(N_a) using the supplied N_a; for post-processing ModeMap.csv files generated before automatic scaling of normal-mode coordinates was added to ModeMap.py."
+    );
+
 args = parser.parse_args();
+
+# Validate input.
+
+if args.RescaleNA != None and args.RescaleNA <= 0:
+    raise Exception("Error: If used, --rescale_na must specify the (positive integer) number of atoms in the primitive cell.");
 
 # Read the input data from "ModeMap.csv" and "ExtractTotalEnergies.csv" and perform some basic validation.
 
@@ -92,6 +105,18 @@ if len(modulationModeCoordinates) != len(modulationTotalEnergies):
 for mod1, (mod2, _) in zip([item[0] for item in modulationModeCoordinates], modulationTotalEnergies):
     if mod1 != mod2:
         raise Exception("Error: Modulation numbers in \"ModeMap.csv\" and \"ExtractTotalEnergies.csv\" are inconsistent.");
+
+# If required, rescale the normal-mode coordinates by 1/sqrt(N_a).
+
+if args.RescaleNA != None:
+    qScale = 1.0 / math.sqrt(args.RescaleNA);
+
+    if args.MapMode == '1D':
+        for i, (mod, q) in enumerate(modulationModeCoordinates):
+            modulationModeCoordinates[i] = (mod, q * qScale);
+    elif args.MapMode == '2D':
+        for i, (mod, q1, q2) in enumerate(modulationModeCoordinates):
+            modulationModeCoordinates[i] = (mod, q1 * qScale, q2 * qScale);
 
 # Post process.
 

@@ -1,5 +1,7 @@
 # ModeMap_PolyFit.py by J. M. Skelton
 
+# TODO: Refactor I/O code into a function.
+
 
 import argparse;
 import csv;

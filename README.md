@@ -12,10 +12,14 @@ A set of tools for mapping and analysing potential-energy surfaces along phonon 
     This issue has now been fixed.
 </i>
 
+<br>
+
 <i>
     If you have output generated with earlier versions of the code, you can use the `--rescale_na` command-line option to the `ModeMap_PostProcess.py` script to correct for the bug during post processing.
     If you need to check whether you were using the affected version, you can type `ModeMap_PostProcess.py -h` and see whether the `--rescale_na` option appears in the list of command-line arguments.
 </i>
+
+<br>
 
 <i>
     We apologise for any inconvenience this may cause, and we are very grateful to Janine George (RWTH Aachen) for pointing out this issue and suggesting a fix.

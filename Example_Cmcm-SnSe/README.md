@@ -70,6 +70,10 @@ These instructions apply to the example files in both the [Mode1-HighResolution]
    This can be done using the `LoopTemperatures.sh` script included in the code directory (modify the `Run()` function with the location of your compiled binary):
    
    `./LoopTemperatures.sh`
+   
+   The renormalised frequencies are written to `t-vs-omega.dat`, and you should obtain a result similar to the following:
+   
+   <img src="RenormalisedFrequencies.png" width="500" alt="RenormalisedFrequencies.png" >
 
 References
 ----------

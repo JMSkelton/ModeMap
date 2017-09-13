@@ -18,11 +18,11 @@ The example is run as follows:
 
 1. Generate a sequence of modulated structures:
    
-   `python ModeMap.py -c POSCAR.vasp --dim="1 1 1" --map_2d --mode_1="0 0 0 1" --mode_2="0 0 0 2" --q_range="-20 20 1" --supercell="1 1 1"`
+   `python ModeMap.py -c POSCAR.vasp --dim="6 1 6" --map_2d --mode_1="0 0 0 1" --mode_2="0 0 0 2" --q_range="-7.5 7.5 0.5" --supercell="1 1 1"`
    
    Information about the structures is written to `ModeMap.csv`, and the structures (in VASP `POSCAR` format) are archived to `ModeMap.tar.gz`.
 
-2. Perform single-point energy calculation on the displaced structures (X in total).
+2. Perform single-point energy calculation on the displaced structures (961 in total).
    Example `INCAR` and `KPOINTS` files are provided for this (`INCAR.SinglePoint` and `KPOINTS.SinglePoint`, respectively), and users will also need the Sn_d and Se PAW PBE potentials (both dated 06-Sep-2000) from the VASP database.
    Once the calculations have been completed, extract the total energies to a CSV-format file (see `ExtractTotalEnergies.py` for an example script).
    The required format is illustrated in `ExtractTotalEnergies.csv`.
@@ -44,8 +44,8 @@ These instructions apply to the example files in both the [Mode1-HighResolution]
 
 1. Generate a sequence of modulated structures:
 
-   For mode 1: `python ModeMap.py -c POSCAR.vasp --dim="1 1 1" --mode="0 0 0 1" --q_range="-25 25 0.5" --supercell="1 1 1"` <br>
-   For mode 2: `python ModeMap.py -c POSCAR.vasp --dim="1 1 1" --mode="0 0 0 2" --q_range="-35 35 0.5" --supercell="1 1 1"`
+   For mode 1: `python ModeMap.py -c POSCAR.vasp --dim="6 1 6" --mode="0 0 0 1" --q_range="-10.0 10.0 0.25" --supercell="1 1 1"` <br>
+   For mode 2: `python ModeMap.py -c POSCAR.vasp --dim="6 1 6" --mode="0 0 0 2" --q_range="-12.5 12.5 0.25" --supercell="1 1 1"`
 
 2. Run the single-point total-energy calculations and collect the output (see #2 in the 2D example above).
 
@@ -57,8 +57,8 @@ These instructions apply to the example files in both the [Mode1-HighResolution]
 
 4. Fit the calculated potential-surface maps to polynomial functions:
 
-   For mode 1: `python ModeMap_PolyFit.py --degree=20 --plot_x="-10 10" --plot_y="-6 8"` <br>
-   For mode 2: `python ModeMap_PolyFit.py --degree=20 --plot_x="-20 20" --plot_y="-15 15"`
+   For mode 1: `python ModeMap_PolyFit.py --degree=20 --plot_x="-4 4" --plot_y="-6 6"` <br>
+   For mode 2: `python ModeMap_PolyFit.py --degree=20 --plot_x="-6 6" --plot_y="-15 15"`
    
    You should obtain plots similar to the following:
    
